@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Avm-land/static/css/main.4fec19de.css",
+    "main.js": "/Avm-land/static/js/main.33a7e9f9.js",
+    "static/media/Hero.mp4": "/Avm-land/static/media/Hero.82a69224e2319b2697c2.mp4",
+    "static/media/bg.png": "/Avm-land/static/media/bg.45f402825471e0161843.png",
+    "static/media/Shirori.jpg": "/Avm-land/static/media/Shirori.04b398a04f8f9de34ec7.jpg",
+    "static/media/edosz.ttf": "/Avm-land/static/media/edosz.0be6a7a25374d83f251f.ttf",
+    "static/media/yui2.jpg": "/Avm-land/static/media/yui2.aaafffd0d895e3a95e39.jpg",
+    "static/media/Minecraft.ttf": "/Avm-land/static/media/Minecraft.81f6c7f882fcc2dee106.ttf",
+    "index.html": "/Avm-land/index.html",
+    "main.4fec19de.css.map": "/Avm-land/static/css/main.4fec19de.css.map",
+    "main.33a7e9f9.js.map": "/Avm-land/static/js/main.33a7e9f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fec19de.css",
+    "static/js/main.33a7e9f9.js"
+  ]
+}
