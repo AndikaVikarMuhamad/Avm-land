@@ -14,8 +14,8 @@ export const Hero = () => {
             <h1>Andika vikar</h1>
             <p>Rest api dengan gtw</p>
             <div>
-            <Link to='/' className='btn'>Docs</Link>
-            <Link to='/' className='btn'>Source code</Link>
+            <Link to='https://avm.andikavikar135.repl.co/' className='btn'>Docs</Link>
+            <Link to='https://github.com/AndikaVikarMuhamad/Avm' className='btn'>Source code</Link>
            </div>
        </div>
     </div>

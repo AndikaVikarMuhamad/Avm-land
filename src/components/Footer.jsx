@@ -26,9 +26,9 @@ const Footer = () => {
                     <h4>About this Rest-api</h4>
                     <p>Avm-API adalah Free Rest-API untuk kalian yang mencari rest-api gratis!</p>
                     <div className='social'>
-                    <Link to="" ><FaYoutube size={30} style={{ color: '#ffffff', marginRight: '1rem' }} /></Link>
-                    <Link to="" ><FaInstagram size={30} style={{ color: '#ffffff', marginRight: '1rem' }} /></Link>
-                    <Link to="" ><FaGithub size={30} style={{ color: '#ffffff', marginRight: '1rem' }} /></Link>
+                    <Link to="https://www.youtube.com/channel/UCKxB0KsC8lRyF2pio4ZbJCw" ><FaYoutube size={30} style={{ color: '#ffffff', marginRight: '1rem' }} /></Link>
+                    <Link to="https://www.instagram.com/vannn.tk/" ><FaInstagram size={30} style={{ color: '#ffffff', marginRight: '1rem' }} /></Link>
+                    <Link to="https://github.com/AndikaVikarMuhamad/" ><FaGithub size={30} style={{ color: '#ffffff', marginRight: '1rem' }} /></Link>
                     </div>
                 </div>
             </div>
