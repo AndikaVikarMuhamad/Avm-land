@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './HeroStyle.css'
 
 import vid from '../assets/Hero.mp4'
@@ -14,8 +13,8 @@ export const Hero = () => {
             <h1>Andika vikar</h1>
             <p>Rest api dengan gtw</p>
             <div>
-            <Link to='https://avm.andikavikar135.repl.co/' className='btn'>Docs</Link>
-            <Link to='https://github.com/AndikaVikarMuhamad/Avm' className='btn'>Source code</Link>
+              <a href="https://avm.andikavikar135.repl.co/" className='btn'>Docs</a>
+              <a href="https://github.com/AndikaVikarMuhamad/Avm" className='btn' >Source code</a>
            </div>
        </div>
     </div>

@@ -1,7 +1,6 @@
 import React from 'react'
 import './FooterStyle.css'
 import { FaYoutube,FaInstagram , FaPhone, FaSearchLocation ,FaGithub} from 'react-icons/fa'
-import {Link} from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -26,9 +25,9 @@ const Footer = () => {
                     <h4>About this Rest-api</h4>
                     <p>Avm-API adalah Free Rest-API untuk kalian yang mencari rest-api gratis!</p>
                     <div className='social'>
-                    <Link to="https://www.youtube.com/channel/UCKxB0KsC8lRyF2pio4ZbJCw" ><FaYoutube size={30} style={{ color: '#ffffff', marginRight: '1rem' }} /></Link>
-                    <Link to="https://www.instagram.com/vannn.tk/" ><FaInstagram size={30} style={{ color: '#ffffff', marginRight: '1rem' }} /></Link>
-                    <Link to="https://github.com/AndikaVikarMuhamad/" ><FaGithub size={30} style={{ color: '#ffffff', marginRight: '1rem' }} /></Link>
+                   <a href="https://www.youtube.com/channel/UCKxB0KsC8lRyF2pio4ZbJCw"><FaYoutube size={30} style={{ color: '#ffffff', marginRight: '1rem' }} /></a>
+                   <a href="https://www.instagram.com/vannn.tk/"><FaInstagram size={30} style={{ color: '#ffffff', marginRight: '1rem' }} /></a>
+                   <a href="https://github.com/AndikaVikarMuhamad/"><FaGithub size={30} style={{ color: '#ffffff', marginRight: '1rem' }} /></a>
                     </div>
                 </div>
             </div>
