@@ -1,0 +1,66 @@
+.project {
+    width: 100%;
+    padding: 6rem 1rem;
+    background-color: #000;
+}
+
+.card-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-container .card {
+    border: 1px solid #eee;
+    color: #eee;
+}
+
+.card {
+    text-align: center;
+    padding: 1rem;
+    /* background:url("../assets/Api.png")  */
+}
+
+.card:hover {
+    background-color: #141414;
+}
+
+.card h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.card .bar {
+    border-bottom: 1px solid #eee;
+    width: 10%;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+.card .btc {
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.project p {
+    color: #eee;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.card .btn-light {
+    display: block;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+@media screen and (max-width: 980px) {
+    .card-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}

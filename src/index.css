@@ -1,13 +1,71 @@
+@font-face {
+  font-family: 'Minecraft';
+  src: url('./assets/Minecraft.ttf');
+}
+@font-face {
+  font-family: 'edosz';
+  src: url('./assets/edosz.ttf');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #000;
+  font-family: 'edosz';
+}
+h1,h4,p,a {
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  color: #000;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.btn-light {
+  padding: 12px 32px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 1);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.btn-light:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: #000;
+  transition: ease-in-out 0.3s;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 0, 1);
+  color: #fff;
+  transition: ease-in-out 0.3s;
 }
